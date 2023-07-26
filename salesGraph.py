@@ -14,7 +14,7 @@ salesLst = []
 for m in range(0, len(monthsLst)):
     while True:
         try:
-            sales = int(input(f'Enter the total amount of sales for {monthsLst[m]}: '))
+            sales = float(input(f'Enter the total amount of sales for {monthsLst[m]}: '))
         except:
             print("Error - Amount of sales must be a valid number - Please reenter.")
         else:
